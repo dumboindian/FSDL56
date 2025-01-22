@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FCRIT</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            flex-wrap: wrap;
+        }
+        .left-section {
+            width: 700px;
+            margin-right: auto;
+        }
+        .login-form {
+            margin-left: auto;
+            margin-right: auto;
+            width: 200px;
+            padding: 20px;
+            border: 1px solid #ccc;
+            background-color: #f9f9f9;
+        }
+        .content-section {
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="left-section">
+        <img src="https://copo.fcrit.ac.in/images/BUILDING-FR.jpg" width="700" height="400" style="display:block;">
+        <p style="text-align: left; font-weight: bold; font-family: 'Times New Roman', Times, serif; font-size: 24px;">
+            Fr. C. Rodrigues Institute of Technology.
+        </p>
+        <p style="text-align: left; font-style: italic;">
+            Fr. CRIT. has, within a short span of time, established itself as a leading engineering college in Mumbai<br> University.
+            Though its reputation rests mainly on the high quality, value-based technical education that it imparts, it has to its 
+            credit a verdant, well-maintained Campus and extensive facilities. Its location in the<br. vicinity of the holy places of <br>
+            various religious denominations underscores its secular credentials and its philosophy of "Vasudhaiva Kuttumbakam".
+            The college prides on being one of few that has accreditation for all five branches.
+        </p>
+        <p style="text-align: left;"><a href="https://fcrit.ac.in" target="_blank">Visit FCRIT</a></p>
+    </div>
+
+    <div class="login-form">
+        <h3>Login</h3>
+        <form action="/login" method="post">
+            <label for="username">Username:</label><br>
+            <input type="text" id="username" name="username"><br><br>
+            <label for="password">Password:</label><br>
+            <input type="password" id="password" name="password"><br><br>
+            <input type="submit" value="Login">
+        </form>
+    </div>
+</body>
+</html>
+
