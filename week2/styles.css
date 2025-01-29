@@ -1,0 +1,71 @@
+/* Basic CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 0.5rem;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 2rem;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    position: relative; /* Ensure footer stays at the bottom of the page */
+    clear: both; /* Clear any floating elements */
+}
+
+.about-image {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+}
+
+.about-section p {
+    text-align: left; 
+    font-weight: bold; 
+    font-family: 'Times New Roman', Times, serif; 
+    font-size: 24px;
+}
